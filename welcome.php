@@ -63,17 +63,7 @@
 		</nav>
    	
 		<div class="container">
-			<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-			
-				<button type="button" id="sidebarCollapse" class="btn btn-info">
-					<i class="fa fa-align-justify"></i> <span>toggle sidebar</span>
-				</button>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-			</nav> -->
 
-		
 			<?php
 			$userID = $_SESSION['userID'];
 			$sql = "SELECT * FROM parking_activity where userID = $userID ";
